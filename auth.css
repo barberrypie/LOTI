@@ -12,6 +12,7 @@
 body{
     background-color: #262626;
     font-family: "Conv_shylock_nbp";
+    font-size: xxx-large;
 }
 
 
@@ -25,6 +26,18 @@ body{
     background-image: url("img/enter-active.png");
 }
 
+.b-enter-reg{
+    background-image: url("img/enter-hover.png");
+    background-position: center;
+}
+.b-enter-reg:hover{
+    background-image: url("img/enter.png");
+    background-position: center;
+}
+.b-enter-reg:active{
+    background-image: url("img/enter-active.png");
+    background-position: center;
+}
 
 .b-reg{
     background-image: url("img/registration-hover.png");
@@ -70,17 +83,43 @@ body{
 
 
 }
+.back-button-reg{
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    transition: background-image 0.5s ease;
+
+    height: 85px;
+
+    display: block;
+    margin: 0 auto;
+
+
+}
 .buttons{
     background-color: transparent;
 
     outline: none;
     border: none;
+    height: 100%;
+    width: 100%;
 
-    padding-right: 13%;
+    padding-right: 20%;
 
 }
 
+.buttons-reg{
+    background-color: transparent;
 
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding-right: 35%;
+    padding-left: 35%;
+
+}
 .back-input{
     background-image: url("img/input.png");
     background-repeat: no-repeat;
@@ -94,8 +133,36 @@ body{
     display: flex;
     justify-content: center;
 }
+.back-input-reg{
+    background-image: url("img/input.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    background-position:center;
+
+    display: block;
+    margin: 0 auto;
+    height: 85px;
+    margin-bottom: 5px;
+}
 .back-input:focus{
     background-image: url("img/input-focus.png");
+}
+.inputs-reg{
+    background-color: transparent;
+
+    padding-left: 30%;
+    padding-right: 30%;
+
+    outline: none;
+    border: none;
+
+    color: aliceblue;
+    font-size: xx-large;
+    transition: background-image 0.5s ease;
+    display: block;
+    margin: 0 auto;
+    height: 85px;
 }
 .inputs{
 
